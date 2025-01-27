@@ -1,0 +1,86 @@
+@charset "UTF-8";
+.pre{
+
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.required-field::after {
+    content: "*";
+    color: red;
+    margin-left: 4px;
+}
+
+.form-floating>label.required-field::after {
+    position: absolute;
+    top: 4px;
+}
+
+.card-header {
+    background: linear-gradient(to right, #2563eb, #3b82f6, #60a5fa);
+    border-bottom: none;
+    position: relative;
+    overflow: hidden;
+}
+
+/* .header-pattern {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.1;
+    background-image: linear-gradient(45deg, #ffffff 25%, transparent 25%),
+        linear-gradient(-45deg, #ffffff 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #ffffff 75%),
+        linear-gradient(-45deg, transparent 75%, #ffffff 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+} */
+
+.company-logo {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+}
+
+.header-badge {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.bg {
+    background-image: url('../img/prepayment.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.header-icon {
+    font-size: 1.2rem;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.page-title {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.shadow-main {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
